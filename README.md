@@ -3,11 +3,12 @@
 Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! Nela, você vai construir sua primeira Landing Page com HTML e CSS, colocando em prática os fundamentos do CSS,
 as propriedades básicas da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas que aprendemos ao longo da trilha.
 
-#RESULTADO
+# RESULTADO
 
 [Clique aqui](https://cristianersantos.github.io/Bootcamp-Frontend/) para acessar o resultado final da Landing Page criada a partir do desafio!
 
-#CUSTOMIZAÇÃO: IMAGEM DE FUNDO COM EFEITO PARALAX 
+# CUSTOMIZAÇÃO: IMAGEM DE FUNDO COM EFEITO PARALAX 
+
 ![image](https://github.com/user-attachments/assets/9fde0c06-2cbc-4019-8b2f-f182fe4e7132)
 
 
