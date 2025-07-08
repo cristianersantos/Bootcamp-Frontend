@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Clonando a Página do Youtube com CSS</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="top-navbar">
+        <div class="left-section">
+            <button class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <img src="img/logo-youtube.png" alt="YouTube logo" class="logo">
+        </div>
+
+        <div class="search-section">
+            <input type="text" placeholder="Pesquisar" class="search-input">
+            <button class="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <div class="right-section">
+            <button class="icon-btn"><i class="fa-solid fa-video"></i></button>
+            <button class="icon-btn"><i class="fa-regular fa-bell"></i></button>
+            <img class="foto-perfil" src="img/Cris-profile (1).png" alt="Foto perfil">            
+        </div>        
+    </header>
+    <main class="content-area">
+        <section class="watch-video">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TeVENRDKCxA?si=jddiUGIr2OBe75i0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <h1>Women in Tech History Animation</h1>
+            <div class="video-stats">
+                <span>6.706 visualizações • 12 de jul. de 2019</span>
+            </div>
+            <div class="video-description">
+                <p>🌐 <em>Elas codaram, criaram, revolucionaram.</em></p>
+                <p>Neste vídeo, você vai conhecer a trajetória poderosa das mulheres na tecnologia — das pioneiras esquecidas às líderes que estão moldando o futuro digital.</p>
+                <p>Prepare-se pra desconstruir mitos, se inspirar com histórias de coragem e entender por que tecnologia sem mulheres simplesmente não faz sentido. 🚀✨</p>
+                <p>#MulheresNaTecnologia #HistóriaDaTecnologia #GirlPowerDigital</p>
+            </div>
+            <div class="channel-section">
+                <div class="channel-info">
+                    <img src="img/media-logo.jpg" alt="Avatar do canal Incisive Media" class="channel-avatar">
+                    <div class="channel-details">
+                        <p class="channel-name">Incisive Media</p>
+                        <span class="subscriber-count">58 mil inscritos</span>
+                    </div>
+                </div>
+                <div class="subscribe-button">
+                    <button type="button">Inscreva-se</button>
+                </div>
+            </div>
+            
+            <div class="video-actions">
+                <button type="button" class="action-button">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <span>Gostei</span>
+                </button>
+
+                <button type="button" class="action-button">
+                    <i class="fa-regular fa-thumbs-down"></i>
+                    <span>Não gostei</span>
+                </button>
+
+                <button type="button" class="action-button">
+                    <i class="fa-solid fa-share"></i>
+                    <span>Compartilhar</span>
+                </button>
+
+                <button type="button" class="action-button">
+                    <i class="fa-solid fa-download"></i>
+                    <span>Download</span>
+                </button>
+            </div>
+        </section>
+        <aside class="sidebar">
+            <article class="video-card">
+                <img src="img/thumb1.png" alt="Thumb do vídeo">
+                <div class="video-info">
+                    <h4>Geração Tech Unimed - BH - Ciência de Dados</h4>
+                    <p class="channel-name">DigitalInnovationOne</p>
+                    <p class="views-date">2,1 mil visualizações • há 3 dias</p>
+                </div>
+            </article>
+            <article class="video-card">
+                <img src="img/thumb2.png" alt="Thumb do vídeo">
+                <div class="video-info">
+                    <h4>Scrum Talks</h4>
+                    <p class="channel-name">DigitalInnovationOne</p>
+                    <p class="views-date">1,6 mil visualizações • há 3 dias</p>
+                </div>
+            </article>
+            <article class="video-card">
+                <img src="img/thumb3.png" alt="Thumb do vídeo">
+                <div class="video-info">
+                    <h4>Machine Learning Avançado - Fast Track</h4>
+                    <p class="channel-name">DigitalInnovationOne</p>
+                    <p class="views-date">1,7 mil visualizações • há 4 dias</p>
+                </div>
+            </article>
+            <article class="video-card">
+                <img src="img/thumb4.png" alt="Thumb do vídeo">
+                <div class="video-info">
+                    <h4>Global Skills #2 - Project Planning</h4>
+                    <p class="channel-name">DigitalInnovationOne</p>
+                    <p class="views-date">971 visualizações • há 5 dias</p>
+                </div>
+            </article>
+            <article class="video-card">
+                <img src="img/thumb5.png" alt="Thumb do vídeo">
+                <div class="video-info">
+                    <h4>Como aprender a programar Python do ZERO</h4>
+                    <p class="channel-name">DigitalInnovationOne</p>
+                    <p class="views-date">711 visualizações • há 6 dias</p>
+                </div>
+            </article>
+            <article class="video-card">
+                <img src="img/thumb6.png" alt="Thumb do vídeo">
+                <div class="video-info">
+                    <h4>Geração Tech Unimed - BH - Ciência de Dados</h4>
+                    <p class="channel-name">DigitalInnovationOne</p>
+                    <p class="views-date">2,1 mil visualizações • há 3 dias</p>
+                </div>
+            </article>
+            <article class="video-card">
+                <img src="img/thumb7.png" alt="Thumb do vídeo">
+                <div class="video-info">
+                    <h4>Scrum Talks</h4>
+                    <p class="channel-name">DigitalInnovationOne</p>
+                    <p class="views-date">1,6 mil visualizações • há 3 dias</p>
+                </div>
+            </article>
+            <article class="video-card">
+                <img src="img/thumb8.png" alt="Thumb do vídeo">
+                <div class="video-info">
+                    <h4>Geração Tech Unimed - BH - Ciência de Dados</h4>
+                    <p class="channel-name">DigitalInnovationOne</p>
+                    <p class="views-date">2,1 mil visualizações • há 3 dias</p>
+                </div>
+            </article>
+            <article class="video-card">
+                <img src="img/thumb1.png" alt="Thumb do vídeo">
+                <div class="video-info">
+                    <h4>Machine Learning Avançado - Fast Track</h4>
+                    <p class="channel-name">DigitalInnovationOne</p>
+                    <p class="views-date">1,7 mil visualizações • há 3 dias</p>
+                </div>
+            </article>
+        </aside>
+
+    </main>
+    
+
+
+    
+    
+</body>
+</html>
