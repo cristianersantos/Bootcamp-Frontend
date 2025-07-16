@@ -41,7 +41,7 @@ Foi muito desafiador adaptar os elementos para mobile. Isso exigiu `media querie
 
 ## 📸 Preview do projeto
 
-![Preview do projeto](images/preview-discord-page.png)
+<img src="images/preview-discord-page.png" alt="Preview do projeto" width="600">
 
 ---
 
