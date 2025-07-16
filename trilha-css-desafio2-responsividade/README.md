@@ -41,7 +41,7 @@ Foi muito desafiador adaptar os elementos para mobile. Isso exigiu `media querie
 
 ## 📸 Preview do projeto
 
-![Preview do projeto](sandbox:/mnt/data/preview-discord-page.png)
+![Preview do projeto](trilha-css-desafio2-responsividade/images/preview-discord-page.png)
 
 ---
 
